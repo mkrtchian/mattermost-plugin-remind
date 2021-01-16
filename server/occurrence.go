@@ -126,7 +126,7 @@ func (p *Plugin) CreateOccurrences(request *ReminderRequest) error {
 	_, locale := p.translation(user)
 
 	switch locale {
-	case "en":
+	case "en", "fr":
 		return p.createOccurrencesEN(request)
 	default:
 		return p.createOccurrencesEN(request)
@@ -317,7 +317,7 @@ func (p *Plugin) in(when string, user *model.User) (times []time.Time, err error
 	_, locale := p.translation(user)
 
 	switch locale {
-	case "en":
+	case "en", "fr":
 		return p.inEN(when, user)
 	default:
 		return p.inEN(when, user)
@@ -568,7 +568,7 @@ func (p *Plugin) at(when string, user *model.User) (times []time.Time, err error
 	_, locale := p.translation(user)
 
 	switch locale {
-	case "en":
+	case "en", "fr":
 		return p.atEN(when, user)
 	default:
 		return p.atEN(when, user)
@@ -770,7 +770,7 @@ func (p *Plugin) on(when string, user *model.User) (times []time.Time, err error
 	_, locale := p.translation(user)
 
 	switch locale {
-	case "en":
+	case "en", "fr":
 		return p.onEN(when, user)
 	default:
 		return p.onEN(when, user)
@@ -912,7 +912,7 @@ func (p *Plugin) every(when string, user *model.User) (times []time.Time, err er
 	_, locale := p.translation(user)
 
 	switch locale {
-	case "en":
+	case "en", "fr":
 		return p.everyEN(when, user)
 	default:
 		return p.everyEN(when, user)
@@ -1094,7 +1094,7 @@ func (p *Plugin) freeForm(when string, user *model.User) (times []time.Time, err
 	_, locale := p.translation(user)
 
 	switch locale {
-	case "en":
+	case "en", "fr":
 		return p.freeFormEN(when, user)
 	default:
 		return p.freeFormEN(when, user)
@@ -1204,7 +1204,7 @@ func (p *Plugin) formatWhen(username string, when string, occurrence string, sno
 	_, locale := p.translation(user)
 
 	switch locale {
-	case "en":
+	case "en", "fr":
 		return p.formatWhenEN(username, when, occurrence, snoozed)
 	default:
 		return p.formatWhenEN(username, when, occurrence, snoozed)

@@ -1,0 +1,1187 @@
+[
+    {
+      "id": "exception.response",
+      "translation": "Désolé, je n'ai pas compris. Essayez cela : `/remind [@utilisateur ou ~canal] [quoi] [quand]` ou utilisez `/remind aide`.\n"
+    },
+    {
+        "id": "help",
+        "translation": "aide"
+    },
+    {
+      "id": "no.reminders",
+      "translation": "Pas de rappels. Entrez `/remind` pour en définir un."
+    },
+    {
+      "id": "list.reminders",
+      "translation": "Une liste de vos rappels se trouve dans votre Message Direct avec @{{.RemindUser}}."
+    },
+    {
+      "id": "schedule.message",
+      "translation": "Message"
+    },
+    {
+      "id": "schedule.target",
+      "translation": "Cible"
+    },
+    {
+      "id": "schedule.target.help",
+      "translation": "@utilisateur or ~canal"
+    },
+    {
+      "id": "schedule.time",
+      "translation": "Moment"
+    },
+    {
+      "id": "schedule.reminder",
+      "translation": "Rappel de planification"
+    },
+    {
+      "id": "list.inchannel",
+      "translation": "**Dans ce canal :**"
+    },
+    {
+      "id": "list.upcoming",
+      "translation": "**A venir :**"
+    },
+    {
+      "id": "list.recurring",
+      "translation": "**Récurrent :**"
+    },
+    {
+      "id": "list.past.and.incomplete",
+      "translation": "**Passé et incomplet :**"
+    },
+    {
+      "id": "list.channel",
+      "translation": "**Rappel de canal :**"
+    },
+    {
+      "id": "list.element.upcoming",
+      "translation": "\"{{.Message}}\" {{.Occurrence}}"
+    },
+    {
+      "id": "list.element.upcoming.snoozed",
+      "translation": "\"{{.Message}}\" (reporté jusqu'à {{.Snoozed}})"
+    },
+    {
+      "id": "list.element.recurring",
+      "translation": "\"{{.Message}}\" {{.Occurrence}}"
+    },
+    {
+      "id": "list.element.recurring.snoozed",
+      "translation": "\"{{.Message}}\" {{.Occurrence}} (reporté jusqu'à {{.Snoozed}})"
+    },
+    {
+      "id": "list.element.past",
+      "translation": "\"{{.Message}}\""
+    },
+    {
+      "id": "list.element.past.snoozed",
+      "translation": "\"{{.Message}}\" (reporté jusqu'à {{.Snoozed}})"
+    },
+    {
+      "id": "list.element.channel",
+      "translation": "\"{{.Message}}\" (dans {{.Channel}}) {{.Occurrence}}"
+    },
+    {
+      "id": "list.element.inchannel",
+      "translation": "\"{{.Message}}\" (dans {{.Channel}}) {{.Occurrence}}"
+    },
+    {
+      "id": "help.response",
+      "translation": "Utilisez /remind pour définir des rappels pour vous-même, pour quelqu'un d'autre, ou pour un canal entier. Voici quelques exemples :\n* `/remind moi de déjeuner à 13 chaque jour`\n* `/remind moi de aller chercher les enfants le 1er juin `\n* `/remind ~marketing-team de donner une mise à jour de leur statut chaque jour à 8`\n* `/remind @jessica à propos du meeting client dans 30 minutes`\n* `/remind @peter \"Meri de faire une relecture du projet de conception\" demain`\nOu, utilisez `/remind list` pour voir la liste de tous vos rappels.\n"
+    },
+    {
+        "id": "schedule.response",
+        "translation": "Je rappellerai à {{.Target}}{{.UseTo}} \"{{.Message}}\" {{.When}}"
+    },
+    {
+        "id": "reminder.message",
+        "translation": "{{.FinalTarget}} m'a demandé de vous rappeler \"{{.Message}}\"."
+    },
+    {
+      "id": "action.complete",
+      "translation": "J'ai marqué \"{{.Message}}\" comme terminé."
+    },
+    {
+      "id": "action.complete.callback",
+      "translation": "{{.User}} a marqué son rappel \"{{.Message}}\" comme terminé."
+    },
+    {
+      "id": "action.delete",
+      "translation": "J'ai supprimé le rappel \"{{.Message}}\"."
+    },
+    {
+      "id": "action.snooze.20min",
+      "translation": "Reporté. Je vous rappellerai \"{{.Message}}\" dans 20 minutes"
+    },
+    {
+      "id": "action.snooze.1hr",
+      "translation": "Reporté. Je vous rappellerai \"{{.Message}}\" dans 1 heure"
+    },
+    {
+      "id": "action.snooze.3hr",
+      "translation": "Reporté. Je vous rappellerai \"{{.Message}}\" dans 3 heures"
+    },
+    {
+      "id": "action.snooze.tomorrow",
+      "translation": "Reporté. Je vous rappellerai \"{{.Message}}\" à 9h demain"
+    },
+    {
+      "id": "action.snooze.nextweek",
+      "translation": "Reporté. Je vous rappellerai \"{{.Message}}\" à 9h lundi prochain"
+    },
+    {
+      "id": "button.next.reminders",
+      "translation": "{{.ReminderCount}} rappels suivants"
+    },
+    {
+      "id": "button.previous.reminders",
+      "translation": "{{.ReminderCount}} rappels précédents"
+    },
+    {
+      "id": "reminders.page.numbers",
+      "translation": "Rappels {{.Start}} à {{.Stop}} (sur {{.Total}})"
+    },
+    {
+      "id": "button.view.reminders",
+      "translation": "Voir les rappels"
+    },
+    {
+      "id": "button.complete",
+      "translation": "Marquer comme terminé"
+    },
+    {
+      "id": "button.view.complete",
+      "translation": "Voir les rappels terminés"
+    },
+    {
+      "id": "button.delete",
+      "translation": "Supprimer"
+    },
+    {
+      "id": "button.delete.complete",
+      "translation": "Supprimer tous les rappels terminés"
+    },
+    {
+      "id": "button.close.list",
+      "translation": "Fermer la liste"
+    },
+    {
+      "id": "button.schedule",
+      "translation": "Planifier le rappel"
+    },
+    {
+      "id": "button.snooze",
+      "translation": "Reporter"
+    },
+    {
+      "id": "button.snooze.10min",
+      "translation": "10 minutes"
+    },
+    {
+      "id": "button.snooze.20min",
+      "translation": "20 minutes"
+    },
+    {
+      "id": "snooze.20min",
+      "translation": "Reporté. Je vous rappellerai \"{{.Message}}\" dans 20 minutes"
+    },
+    {
+      "id": "button.snooze.30min",
+      "translation": "30 minutes"
+    },
+    {
+      "id": "button.snooze.40min",
+      "translation": "40 minutes"
+    },
+    {
+      "id": "button.snooze.50min",
+      "translation": "50 minutes"
+    },
+    {
+      "id": "button.snooze.1hr",
+      "translation": "1 heure"
+    },
+    {
+      "id": "snooze.1hr",
+      "translation": "Reporté. Je vous rappellerai \"{{.Message}}\" dans 1 heure"
+    },
+    {
+      "id": "button.snooze.2hr",
+      "translation": "2 heures"
+    },
+    {
+      "id": "button.snooze.3hr",
+      "translation": "3 heures"
+    },
+    {
+      "id": "snooze.3hr",
+      "translation": "D'accord ! Je vous rappellerai \"{{.Message}}\" dans 3 heures"
+    },
+    {
+      "id": "button.snooze.4hr",
+      "translation": "4 heures"
+    },
+    {
+      "id": "button.snooze.5hr",
+      "translation": "5 heures"
+    },
+    {
+      "id": "button.snooze.6hr",
+      "translation": "6 heures"
+    },
+    {
+      "id": "button.snooze.7hr",
+      "translation": "7 heures"
+    },
+    {
+      "id": "button.snooze.8hr",
+      "translation": "8 heures"
+    },
+    {
+      "id": "button.snooze.9hr",
+      "translation": "9 heures"
+    },
+    {
+      "id": "button.snooze.10hr",
+      "translation": "10 heures"
+    },
+    {
+      "id": "button.snooze.11hr",
+      "translation": "11 heures"
+    },
+    {
+      "id": "button.snooze.12hr",
+      "translation": "12 heures"
+    },
+    {
+      "id": "button.snooze.13hr",
+      "translation": "13 heures"
+    },
+    {
+      "id": "button.snooze.14hr",
+      "translation": "14 heures"
+    },
+    {
+      "id": "button.snooze.15hr",
+      "translation": "15 heures"
+    },
+    {
+      "id": "button.snooze.16hr",
+      "translation": "16 heures"
+    },
+    {
+      "id": "button.snooze.17hr",
+      "translation": "17 heures"
+    },
+    {
+      "id": "button.snooze.18hr",
+      "translation": "18 heures"
+    },
+    {
+      "id": "button.snooze.19hr",
+      "translation": "19 heures"
+    },
+    {
+      "id": "button.snooze.20hr",
+      "translation": "20 heures"
+    },
+    {
+      "id": "button.snooze.21hr",
+      "translation": "21 heures"
+    },
+    {
+      "id": "button.snooze.22hr",
+      "translation": "22 heures"
+    },
+    {
+      "id": "button.snooze.23hr",
+      "translation": "23 heures"
+    },
+    {
+      "id": "button.snooze.tomorrow",
+      "translation": "Demain à 9h"
+    },
+    {
+      "id": "button.snooze.1day",
+      "translation": "1 jour"
+    },
+    {
+      "id": "button.snooze.2day",
+      "translation": "2 jours"
+    },
+    {
+      "id": "button.snooze.3day",
+      "translation": "3 jours"
+    },
+    {
+      "id": "button.snooze.4day",
+      "translation": "4 jours"
+    },
+    {
+      "id": "button.snooze.5day",
+      "translation": "5 jours"
+    },
+    {
+      "id": "button.snooze.6day",
+      "translation": "6 jours"
+    },
+    {
+      "id": "button.snooze.7day",
+      "translation": "7 jours"
+    },
+    {
+      "id": "snooze.tomorrow",
+      "translation": "Reporté. Je vous rappellerai \"{{.Message}}\" à 9h demain"
+    },
+    {
+      "id": "button.snooze.nextweek",
+      "translation": "La semaine prochaine"
+    },
+    {
+      "id": "snooze.nextweek",
+      "translation": "Reporté. Je vous rappellerai \"{{.Message}}\" à 9h lundi prochain"
+    },
+    {
+        "id": "clear.response",
+        "translation": "Rappels effacés.\n"
+    },
+    {
+        "id": "me",
+        "translation": "moi"
+    },
+    {
+        "id": "you",
+        "translation": "vous"
+    },
+    {
+        "id": "to",
+        "translation": "de"
+    },
+    {
+      "id": "and",
+      "translation": "et"
+    },
+    {
+        "id": "in",
+        "translation": "dans"
+    },
+    {
+        "id": "at",
+        "translation": "à"
+    },
+      {
+        "id": "on",
+        "translation": "le"
+    },
+    {
+        "id": "every",
+        "translation": "chaque"
+    },
+    {
+        "id": "everyday",
+        "translation": "chaque jour"
+    },
+    {
+        "id": "today",
+        "translation": "aujourd'hui"
+    },
+    {
+        "id": "tomorrow",
+        "translation": "demain"
+    },
+    {
+      "id": "weekday",
+      "translation": "jours ouvrables"
+    },
+    {
+      "id": "weekdays",
+      "translation": "jours de la semaine"
+    },
+    {
+      "id": "mon",
+      "translation": "lun"
+    },
+    {
+      "id": "monday",
+      "translation": "lundi"
+    },
+    {
+      "id": "tues",
+      "translation": "mar"
+    },
+    {
+      "id": "tuesday",
+      "translation": "mardi"
+    },
+    {
+      "id": "wed",
+      "translation": "mer"
+    },
+    {
+      "id": "wednes",
+      "translation": "merc"
+    },
+    {
+      "id": "wednesday",
+      "translation": "mercredi"
+    },
+    {
+      "id": "thur",
+      "translation": "jeu"
+    },
+    {
+      "id": "thurs",
+      "translation": "jeud"
+    },
+    {
+      "id": "thursday",
+      "translation": "jeudi"
+    },
+    {
+      "id": "fri",
+      "translation": "ven"
+    },
+    {
+      "id": "friday",
+      "translation": "vendredi"
+    },
+    {
+      "id": "sat",
+      "translation": "sam"
+    },
+    {
+      "id": "satur",
+      "translation": "same"
+    },
+    {
+      "id": "saturday",
+      "translation": "samedi"
+    },
+    {
+      "id": "sun",
+      "translation": "dim"
+    },
+    {
+      "id": "sunday",
+      "translation": "dimanche"
+    },
+    {
+        "id": "mondays",
+        "translation": "lundis"
+    },
+    {
+        "id": "tuesdays",
+        "translation": "mardis"
+    },
+    {
+        "id": "wednesdays",
+        "translation": "mercredis"
+    },
+    {
+        "id": "thursdays",
+        "translation": "jeudis"
+    },
+    {
+        "id": "fridays",
+        "translation": "vendredis"
+    },
+    {
+        "id": "saturdays",
+        "translation": "samedis"
+    },
+    {
+        "id": "sundays",
+        "translation": "dimanches"
+    },
+      {
+      "id": "s",
+      "translation": "s"
+    },
+    {
+      "id": "sec",
+      "translation": "sec"
+    },
+    {
+      "id": "secs",
+      "translation": "secs"
+    },
+    {
+      "id": "second",
+      "translation": "seconde"
+    },
+    {
+      "id": "seconds",
+      "translation": "secondes"
+    },
+    {
+      "id": "minutes",
+      "translation": "minutes"
+    },
+    {
+      "id": "minute",
+      "translation": "minute"
+    },
+    {
+      "id": "mins",
+      "translation": "mins"
+    },
+    {
+      "id": "min",
+      "translation": "min"
+    },
+    {
+      "id": "hours",
+      "translation": "heures"
+    },
+    {
+      "id": "hour",
+      "translation": "heure"
+    },
+    {
+      "id": "hrs",
+      "translation": "hrs"
+    },
+    {
+      "id": "hr",
+      "translation": "h"
+    },
+    {
+      "id": "days",
+      "translation": "jours"
+    },
+    {
+      "id": "day",
+      "translation": "jour"
+    },
+    {
+      "id": "d",
+      "translation": "j"
+    },
+    {
+      "id": "weeks",
+      "translation": "semaines"
+    },
+    {
+      "id": "week",
+      "translation": "semaine"
+    },
+    {
+      "id": "wks",
+      "translation": "sem"
+    },
+    {
+      "id": "wk",
+      "translation": "se"
+    },
+    {
+      "id": "months",
+      "translation": "mois"
+    },
+    {
+      "id": "month",
+      "translation": "mois"
+    },
+    {
+      "id": "m",
+      "translation": "m"
+    },
+    {
+      "id": "years",
+      "translation": "années"
+    },
+    {
+      "id": "year",
+      "translation": "année"
+    },
+    {
+      "id": "yr",
+      "translation": "an"
+    },
+    {
+      "id": "y",
+      "translation": "a"
+    },
+     {
+      "id": "jan",
+      "translation": "jan"
+    },
+    {
+      "id": "january",
+      "translation": "janvier"
+    },
+    {
+      "id": "feb",
+      "translation": "fév"
+    },
+    {
+      "id": "february",
+      "translation": "février"
+    },
+    {
+      "id": "mar",
+      "translation": "mar"
+    },
+    {
+      "id": "march",
+      "translation": "mars"
+    },
+    {
+      "id": "apr",
+      "translation": "avr"
+    },
+    {
+      "id": "april",
+      "translation": "avril"
+    },
+    {
+      "id": "may",
+      "translation": "mai"
+    },
+    {
+      "id": "june",
+      "translation": "juin"
+    },
+    {
+      "id": "july",
+      "translation": "Juillet"
+    },
+    {
+      "id": "aug",
+      "translation": "août"
+    },
+    {
+      "id": "august",
+      "translation": "août"
+    },
+    {
+      "id": "sept",
+      "translation": "sept"
+    },
+    {
+      "id": "september",
+      "translation": "septembre"
+    },
+    {
+      "id": "oct",
+      "translation": "oct"
+    },
+    {
+      "id": "october",
+      "translation": "octobre"
+    },
+    {
+      "id": "nov",
+      "translation": "nov"
+    },
+    {
+      "id": "november",
+      "translation": "novembre"
+    },
+    {
+      "id": "dec",
+      "translation": "déc"
+    },
+    {
+      "id": "december",
+      "translation": "décembre"
+    },
+    {
+      "id": "other",
+      "translation": "autre"
+    },
+    {
+      "id": "pm",
+      "translation": "pm"
+    },
+    {
+      "id": "am",
+      "translation": "am"
+    },
+    {
+      "id": "noon",
+      "translation": "midi"
+    },
+    {
+      "id": "midnight",
+      "translation": "minuit"
+    },
+    {
+      "id": "zero",
+      "translation": "zéro"
+    },
+    {
+      "id": "one",
+      "translation": "un"
+    },
+    {
+      "id": "two",
+      "translation": "deux"
+    },
+    {
+      "id": "three",
+      "translation": "trois"
+    },
+    {
+      "id": "four",
+      "translation": "quatre"
+    },
+    {
+      "id": "five",
+      "translation": "cinq"
+    },
+    {
+      "id": "six",
+      "translation": "six"
+    },
+    {
+      "id": "seven",
+      "translation": "sept"
+    },
+    {
+      "id": "eight",
+      "translation": "huit"
+    },
+    {
+      "id": "nine",
+      "translation": "neuf"
+    },
+    {
+      "id": "ten",
+      "translation": "dix"
+    },
+    {
+      "id": "eleven",
+      "translation": "onze"
+    },
+    {
+      "id": "twelve",
+      "translation": "douze"
+    },
+    {
+      "id": "thirteen",
+      "translation": "treize"
+    },
+    {
+      "id": "fourteen",
+      "translation": "quatorze"
+    },
+    {
+      "id": "fifteen",
+      "translation": "quinze"
+    },
+    {
+      "id": "sixteen",
+      "translation": "seize"
+    },
+    {
+      "id": "seventeen",
+      "translation": "dix-sept"
+    },
+    {
+      "id": "eighteen",
+      "translation": "dix-huit"
+    },
+    {
+      "id": "nineteen",
+      "translation": "dix-neuf"
+    },
+    {
+      "id": "twenty",
+      "translation": "vingt"
+    },
+    {
+      "id": "thirty",
+      "translation": "trente"
+    },
+    {
+      "id": "fourty",
+      "translation": "quarante"
+    },
+    {
+      "id": "fifty",
+      "translation": "cinquante"
+    },
+    {
+      "id": "sixty",
+      "translation": "soixante"
+    },
+    {
+      "id": "seventy",
+      "translation": "soixante-dix"
+    },
+    {
+      "id": "eighty",
+      "translation": "quatre-vingt"
+    },
+    {
+      "id": "ninety",
+      "translation": "quatre-vingt-dix"
+    },
+    {
+      "id": "hundred",
+      "translation": "cent"
+    },
+    {
+      "id": "thousand",
+      "translation": "mille"
+    },
+    {
+      "id": "million",
+      "translation": "million"
+    },
+    {
+      "id": "billion",
+      "translation": "milliard"
+    },
+    {
+      "id": "0",
+      "translation": "0"
+    },
+    {
+      "id": "1",
+      "translation": "1"
+    },
+    {
+      "id": "2",
+      "translation": "2"
+    },
+    {
+      "id": "3",
+      "translation": "3"
+    },
+    {
+      "id": "4",
+      "translation": "4"
+    },
+    {
+      "id": "5",
+      "translation": "5"
+    },
+    {
+      "id": "6",
+      "translation": "6"
+    },
+    {
+      "id": "7",
+      "translation": "7"
+    },
+    {
+      "id": "8",
+      "translation": "8"
+    },
+    {
+      "id": "9",
+      "translation": "9"
+    },
+    {
+      "id": "10",
+      "translation": "10"
+    },
+    {
+      "id": "11",
+      "translation": "11"
+    },
+    {
+      "id": "12",
+      "translation": "12"
+    },
+    {
+      "id": "13",
+      "translation": "13"
+    },
+    {
+      "id": "14",
+      "translation": "14"
+    },
+    {
+      "id": "15",
+      "translation": "15"
+    },
+    {
+      "id": "16",
+      "translation": "16"
+    },
+    {
+      "id": "17",
+      "translation": "17"
+    },
+    {
+      "id": "18",
+      "translation": "18"
+    },
+    {
+      "id": "19",
+      "translation": "19"
+    },
+    {
+      "id": "20",
+      "translation": "20"
+    },
+    {
+      "id": "21",
+      "translation": "21"
+    },
+    {
+      "id": "22",
+      "translation": "22"
+    },
+    {
+      "id": "23",
+      "translation": "23"
+    },
+    {
+      "id": "0th",
+      "translation": "0"
+    },
+    {
+      "id": "1st",
+      "translation": "1er"
+    },
+    {
+      "id": "2nd",
+      "translation": "2"
+    },
+    {
+      "id": "3rd",
+      "translation": "3"
+    },
+    {
+      "id": "4th",
+      "translation": "4"
+    },
+    {
+      "id": "5th",
+      "translation": "5"
+    },
+    {
+      "id": "6th",
+      "translation": "6"
+    },
+    {
+      "id": "7th",
+      "translation": "7"
+    },
+    {
+      "id": "8th",
+      "translation": "8"
+    },
+    {
+      "id": "9th",
+      "translation": "9"
+    },
+    {
+      "id": "10th",
+      "translation": "10"
+    },
+    {
+      "id": "11th",
+      "translation": "11"
+    },
+    {
+      "id": "12th",
+      "translation": "12"
+    },
+    {
+      "id": "13th",
+      "translation": "13"
+    },
+    {
+      "id": "14th",
+      "translation": "14"
+    },
+    {
+      "id": "15th",
+      "translation": "15"
+    },
+    {
+      "id": "16th",
+      "translation": "16"
+    },
+    {
+      "id": "17th",
+      "translation": "17"
+    },
+    {
+      "id": "18th",
+      "translation": "18"
+    },
+    {
+      "id": "19th",
+      "translation": "19"
+    },
+    {
+      "id": "20th",
+      "translation": "20"
+    },
+    {
+      "id": "21st",
+      "translation": "21"
+    },
+    {
+      "id": "22nd",
+      "translation": "22"
+    },
+    {
+      "id": "23rd",
+      "translation": "23"
+    },
+    {
+      "id": "24th",
+      "translation": "24"
+    },
+    {
+      "id": "25th",
+      "translation": "25"
+    },
+    {
+      "id": "26th",
+      "translation": "26"
+    },
+    {
+      "id": "27th",
+      "translation": "27"
+    },
+    {
+      "id": "28th",
+      "translation": "28"
+    },
+    {
+      "id": "29th",
+      "translation": "29"
+    },
+    {
+      "id": "30th",
+      "translation": "30"
+    },
+    {
+      "id": "31th",
+      "translation": "31"
+    },
+    {
+      "id": "first",
+      "translation": "premier"
+    },
+    {
+      "id": "second",
+      "translation": "deux"
+    },
+    {
+      "id": "third",
+      "translation": "trois"
+    },
+    {
+      "id": "fourth",
+      "translation": "quatre"
+    },
+    {
+      "id": "fifth",
+      "translation": "cinq"
+    },
+    {
+      "id": "sixth",
+      "translation": "six"
+    },
+    {
+      "id": "seventh",
+      "translation": "sept"
+    },
+    {
+      "id": "eighth",
+      "translation": "huit"
+    },
+    {
+      "id": "nineth",
+      "translation": "neuf"
+    },
+    {
+      "id": "tenth",
+      "translation": "dix"
+    },
+    {
+      "id": "eleventh",
+      "translation": "onze"
+    },
+    {
+      "id": "twelveth",
+      "translation": "douze"
+    },
+    {
+      "id": "thirteenth",
+      "translation": "treize"
+    },
+    {
+      "id": "fourteenth",
+      "translation": "quatorze"
+    },
+    {
+      "id": "fifteenth",
+      "translation": "quinze"
+    },
+    {
+      "id": "sixteenth",
+      "translation": "seize"
+    },
+    {
+      "id": "seventeenth",
+      "translation": "dix-sept"
+    },
+    {
+      "id": "eighteenth",
+      "translation": "dix-huit"
+    },
+    {
+      "id": "nineteenth",
+      "translation": "dix-neuf"
+    },
+    {
+      "id": "twenteth",
+      "translation": "vingt"
+    },
+    {
+      "id": "twentyfirst",
+      "translation": "vingt-et-un"
+    },
+    {
+      "id": "twentysecond",
+      "translation": "vingt-deux"
+    },
+    {
+      "id": "twentythird",
+      "translation": "vingt-trois"
+    },
+    {
+      "id": "twentyfourth",
+      "translation": "vingt-quatre"
+    },
+    {
+      "id": "twentyfifth",
+      "translation": "vingt-cinq"
+    },
+    {
+      "id": "twentysixth",
+      "translation": "vingt-six"
+    },
+    {
+      "id": "twentyseventh",
+      "translation": "vingt-sept"
+    },
+    {
+      "id": "twentyeight",
+      "translation": "vingt-huit"
+    },
+    {
+      "id": "twentynineth",
+      "translation": "vingt-neuf"
+    },
+    {
+      "id": "thirteth",
+      "translation": "trente"
+    },
+    {
+      "id": "thirtyfirst",
+      "translation": "trente-et-un"
+    }
+  ]
+  
